@@ -1,10 +1,15 @@
+import React from "react";
+import Dictionary from "./Dictionary";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function App() {
   return (
     <div className="App">
-      <div className="btn btn-primary">hello</div>
+      <div className="container">
+        <Dictionary />
+        <footer>Coded by Channell Mascaro</footer>
+      </div>
     </div>
   );
 }
