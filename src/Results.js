@@ -4,7 +4,6 @@ import Meaning from "./Meaning";
 import "./Results.css";
 
 export default function Results(props) {
-  console.log(props.definition);
   if (props.definition) {
     return (
       <div className="Results">
