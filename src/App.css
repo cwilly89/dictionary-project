@@ -1,5 +1,6 @@
-.App body {
-  background: #c4c1e0;
+.App {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 footer {
